@@ -2,7 +2,7 @@
 
 run:    'python amqpPublisher'
 
-options:    -m path to message file, default: message.txt
-            -c path to configuration file, default: configuration.txt
-            -t number of messages to send, default: 1
-            -d delay between messages (seconds), default: 1
+options:    -m path to message file, default: message.txt  
+            -c path to configuration file, default: configuration.txt  
+            -t number of messages to send, default: 1  
+            -d delay between messages (seconds), default: 1  
