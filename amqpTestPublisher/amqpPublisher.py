@@ -24,7 +24,7 @@ def sendMessages(message, config, options):
 
     print('start sending messages')
     for i in range(0, messageCount):
-        channel.basic_publish(exchange='wacodis.dataenvelope.creation',
+        channel.basic_publish(exchange= config['exchange'],
                               routing_key='',
                               body=message)
         print('message (%i) sent with body:\n%s' % ((i+1), message))
