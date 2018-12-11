@@ -38,7 +38,7 @@ def sendMessages(message, config, options):
     connection.close()
 
 
-def readMessage(filename='message.txt'):
+def readMessage(filename='dataEnvelopeMessage.json'):
     message = 'default message'
 
     if not os.path.isfile(filename):
@@ -72,7 +72,7 @@ def readConfiguration(filename='configuration.txt'):
 
 
 def readCommandLineArgs():
-    optionsDict = {'messageFile': 'message.txt',
+    optionsDict = {'messageFile': 'dataEnvelopeMessage.json',
                    'configFile': 'configuration.txt', 'delay': 1, 'messageCount': 1}
     options, args = getopt.getopt(sys.argv[1:], 'm:c:d:t:')
 

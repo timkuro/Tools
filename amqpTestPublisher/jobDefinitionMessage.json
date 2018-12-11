@@ -1,0 +1,24 @@
+{
+  "name": "land-cover-classification_wuppertalsperre",
+  "description": "This Job defines a land cover classification by remote sensing images for the area of the Wuppertalsperre.",
+  "useCase": "land-cover-classification",
+  "created": "2018-12-11T12:03:26.006Z",
+  "lastFinishedExecution": "2018-12-11T12:03:26.006Z",
+  "execution": {
+    "pattern": "*/2 * * * *"
+  },
+  "temporalCoverage": {
+    "duration": "PT1M",
+    "previousExecution": false
+  },
+  "areaOfInterest": {
+    "extent": [7.000, 52.000, 7.100, 52.100]
+  },
+  "processingTool": "land-cover-classification",
+  "inputs": [
+    {
+      "sourceType": "CopernicusSubsetDefinition",
+      "identifier": "opticalImage"
+    }
+  ]
+}
