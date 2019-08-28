@@ -8,17 +8,17 @@
     "pattern": "*/2 * * * *"
   },
   "temporalCoverage": {
-    "duration": "PT1M",
+    "duration": "P1M",
     "previousExecution": false
   },
   "areaOfInterest": {
-    "extent": [7.000, 52.000, 7.100, 52.100]
+    "extent": [6.700, 51.200, 7.300, 51.500]
   },
   "processingTool": "land-cover-classification",
   "inputs": [
     {
-      "sourceType": "CopernicusSubsetDefinition",
-      "identifier": "opticalImage"
+      "layername": "CDC:VGSL_FX_MN003",
+      "serviceurl": "https://cdc.dwd.de:443/geoserver/CDC/wfs?"
     }
   ]
 }
