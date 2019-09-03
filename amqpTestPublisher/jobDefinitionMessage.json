@@ -1,6 +1,6 @@
 {
   "id": "550e8400-e29b-11d4-a716-446655440000",
-  "name": "land-cover-classification_wuppertalsperre",
+  "name": "dwd-Versuch13",
   "description": "This Job defines a land cover classification by remote sensing images for the area of the Wuppertalsperre.",
   "useCase": "land-cover-classification",
   "created": "2018-12-11T12:03:26.006Z",
@@ -20,8 +20,8 @@
     {
       "sourceType": "DwdSubsetDefinition",
       "identifier": "dwdWeatherData",
-      "layername": "CDC:VGSL_FX_MN003",
-      "serviceurl": "https://cdc.dwd.de:443/geoserver/CDC/wfs?"
+      "layerName": "FX_MN003",
+      "serviceUrl": "https://cdc.dwd.de:443/geoserver/CDC/wfs?"
     }
   ]
 }
